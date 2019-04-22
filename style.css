@@ -1,0 +1,33 @@
+.container{
+    height: 600px;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:repeat(7,1fr);
+
+}
+    .redes{
+        background: hsl(197, 97%, 47%);
+
+    }
+    .menu{
+        background: #fff;
+    }
+    .baner{
+        background: #f6e605f5;
+
+    }
+    .our{
+        background: hsla(197, 96%, 49%, 0.961);
+
+    }
+    .sale{
+        background: #fff;
+
+    }
+    .tutors{
+        background: hsla(197, 96%, 49%, 0.961);
+
+    }
+    .cources{
+        background: rgba(94, 107, 112, 0.877);
+    }
