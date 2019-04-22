@@ -2,8 +2,7 @@
     height: 600px;
     display:grid;
     grid-template-columns:1fr;
-    grid-template-rows:60px 60px repeat(4,1fr);
-
+    grid-template-rows:60px 80px repeat(4,1fr);
 }
     .redes{
         background: rgb(4, 63, 110);
@@ -11,8 +10,7 @@
         grid-template-columns:1fr 2fr 1.5fr;
         grid-template-rows:1fr;
         align-items: center;
-        
-    }
+        }
         .icon-redes{
             display:grid;
             grid-template-columns:repeat(5,1fr);
@@ -20,10 +18,6 @@
             grid-column-gap: 5px;
             align-items: center;
             margin: 0px 0 0 40px;
-           
-           
-           
-             
         }
             .icon{
                 background: rgba(76, 87, 92, 0.561);
@@ -47,9 +41,9 @@
             grid-column-gap: 5px;
             align-items: center;
             margin: 0px 40px 0px 0px;
-
-            
-            
+        }
+            .t1{
+            color: #fff;
         }
             .boton{
                 background: hsl(37, 75%, 48%);
@@ -60,13 +54,49 @@
                 border: none;
                 border-radius: 5px;
             }
-        .t1{
-            color: #fff;
-
-        }
-    .menu{
+        .menu{
         background: #fff;
+        display:grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows:1fr;
     }
+        .logo{
+            display:grid;
+            grid-template-columns:1.5fr 1fr;
+            grid-template-rows:1fr;
+            align-items: center;
+            margin: 0px 0px 0px 40px;
+            grid-gap: 0px 5px; 
+        }
+            .company{
+                font-size:40px;
+                
+            }
+            .tagline{
+                height: 40px;
+                background: #0d8dc0;
+                text-align: center;
+                font-size: 10px;
+                display: flex;
+                align-items: center;
+                color: #fff;
+            }
+        .list{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-auto-rows: 1fr;
+            grid-column: 3;
+            list-style: none;
+            align-items: center;
+            grid-gap: 0px 5px;
+            margin: 0px 40px 0px 0px;
+            height: 100%;
+           
+        }
+        ul li:hover{
+            border: 2px;
+            /*height: 100%;*/
+        }
     .baner{
         background: #f6e605f5;
 
