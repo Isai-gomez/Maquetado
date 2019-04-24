@@ -4,6 +4,7 @@
     grid-template-columns:1fr;
     grid-template-rows:60px 80px repeat(4,1fr);
 }
+/* diseño del header */
     .redes{
         background: rgb(4, 63, 110);
         display:grid;
@@ -39,10 +40,12 @@
         }
             .t1{
             color: #fff;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr;
-            grid-gap: 0 5px; 
+            width: 130px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+
         }
         .t1 i{
             color: #1c8fd1;
@@ -56,12 +59,13 @@
                 border: none;
                 border-radius: 5px;
             }
+/* diseño de menu */
         .menu{
         background: #fff;
         display:grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows:1fr;
-        grid-column: 40px;
+        grid-column-gap:100px; 
         
     }
         .logo{
@@ -96,37 +100,20 @@
         .list{
             height: 80px;
             display:flex;
-            
-            align-items:center;
-            background: #030303;
-            /* display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            margin: auto;
-            flex-shrink: auto;
-            width: 100%;
-            height: 100%;
-            margin: auto; */
-            /*grid-template-columns: repeat(7,1fr);
-            grid-auto-rows: 1fr;
-            grid-column: 3;
-            list-style: none;
-            align-items: center;
-            grid-gap: 0px 5px;
-            
-            height: 80px;*/
-           
-        }
+            /* background: #030303; */
+            margin: 0px 40px 0px 0px;
+            }
         .list a{
-            height: 100%;
-            margin-left: 10px;
-            flex: 1 1 0;
-           
-            background: hsl(0, 7%, 86%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            
+            /* background: hsl(0, 7%, 86%); */
         }
         .list a:hover{
             
-            border: 4px solid #0d8dc0;
+            border-bottom: 5px solid hsl(345, 90%, 45%);
             /*height: 100%;*/
         }
     .baner{
