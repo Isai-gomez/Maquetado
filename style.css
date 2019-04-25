@@ -174,15 +174,75 @@
        .titulo{
            text-align: center;
        }
-           
-    .sale{
-        background: #fff;
+           .paquetes{
+               background: #818b9169; 
+               display: grid;
+               grid-template-columns: 1fr 1fr;
+               grid-gap: 0 40px;
+               
+           }
+                .paquete{
+                    /* background: #818b9169;  */
+                    margin: 0px 0px 0px 60px;
+                    display: flex;
+                    flex-direction:row;
+                    justify-content: center;
+                    
 
-    }
-    .tutors{
+                } 
+                    .uno{
+                        /* background: hsl(202, 44%, 32%); */
+                        display: flex;
+                        flex-grow: 1;
+                    }
+                    .dos{
+                        /* background: rgb(163, 231, 5); */
+                        display:flex;
+                        /* flex-direction: column; */
+                        margin: 20px;
+                        flex-grow: 1;
+                        
+                    }
+                    .oferta{
+                        font-size: 80px;
+                        color:hsl(0, 66%, 48%);
+                    }
+                    .precio{
+                        font-size: 40px;
+                        text-decoration-line: line-through;
+                    }
+                    .caracteristicas{
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: 1;
+                        
+                    }
+     
+    .tutores{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-column: 20px;
         background: hsla(197, 96%, 49%, 0.961);
 
     }
+    .tutor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        align-content: center;
+        background: #4d6b7c;
+    }
+    .z-index {
+        z-index: 4;
+    }
+        .des-tutor{
+            background: hsl(268, 75%, 25%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: -20px;
+        }
     .cources{
         background: rgba(94, 107, 112, 0.877);
     }
