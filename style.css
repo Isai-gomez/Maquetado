@@ -221,8 +221,9 @@
     .tutores{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-column: 20px;
-        background: hsla(197, 96%, 49%, 0.961);
+        grid-column-gap: 20px;
+        background: #fff;
+        margin: 0px 80px 80px 80px;
 
     }
     .tutor{
@@ -231,18 +232,72 @@
         justify-content: center;
         align-items: center; 
         align-content: center;
-        background: #4d6b7c;
+        /* background: #4d6b7c; */
     }
     .z-index {
-        z-index: 4;
+        z-index: 6;
     }
         .des-tutor{
-            background: hsl(268, 75%, 25%);
+            background: rgba(222, 217, 228, 0.438);
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: -20px;
+            margin-top: -40px;
+            padding: 40px;
         }
+        .texto1{
+            text-align: center;
+        }
+        .enlace{
+            color: hsl(0, 92%, 39%);
+            font-size: 20px;
+        }
+        /* maquetado de la secccion cources */
     .cources{
-        background: rgba(94, 107, 112, 0.877);
+        background: hsl(180, 4%, 10%);
+        display: grid;
+        /* grid-template-columns: 1fr; */
+        grid-template-rows: 1fr 40px 2fr; 
     }
+        .blanco{
+            color: #fff;
+        }
+        .list1{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .red{
+            margin-left: 40px;
+            color:#fff;
+        }
+        
+        .red:hover{
+            color: hsl(0, 92%, 45%);
+        }
+        .emage-boton{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            margin: 0px 80px 80px 80px;
+        }
+        .emage-container{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+        }
+        .rojo{
+            background: rgb(218, 36, 23);
+                height:45px;
+                text-align: center;
+                font-size: 20px;
+                color: #030303;
+                border: none;
+        }
+        .amarillo{
+            background: rgb(255, 221, 29);
+                height:45px;
+                text-align: center;
+                font-size: 20px;
+                color: #030303;
+                border: none;
+        }
